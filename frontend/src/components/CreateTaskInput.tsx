@@ -29,6 +29,7 @@ export const CreateTaskInput = () => {
         description: selectedTask.description,
       });
     }
+
     return () => clearSelectedTask();
   }, [selectedTask, clearSelectedTask]);
 
